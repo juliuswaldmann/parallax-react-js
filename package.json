@@ -1,0 +1,19 @@
+{
+  "name": "@juliuswaldmann/parallax-react",
+  "version": "1.0.0",
+  "description": "A libary for managing scroll speed of different components in react.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "parallax",
+    "react",
+    "react-js",
+    "ui",
+    "scroll",
+    "customscroll"
+  ],
+  "author": "juliuswaldmann",
+  "license": "ISC"
+}
