@@ -2,7 +2,6 @@
   "name": "@juliuswaldmann/parallax-react",
   "version": "1.0.0",
   "description": "A libary for managing scroll speed of different components in react.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +14,14 @@
     "customscroll"
   ],
   "author": "juliuswaldmann",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "react": "^17.0.2",
+    "typescript": "^4.2.4"
+  },
+  "files": [
+    "./build/*"
+  ],
+  "module": "./build/index.js"
 }
