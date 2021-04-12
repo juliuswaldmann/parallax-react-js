@@ -51,7 +51,8 @@ function Site () {
 
   return (
     <div>
-      <ParallaxContainer> //Wrapp your ParallaxLayers in ParallaxContainer. Each ParallaxLayer can have it's own children, own speed and own zIndex
+      <ParallaxContainer> //Wrapp your ParallaxLayers in ParallaxContainer. 
+                          //Each ParallaxLayer can have it's own children, own speed and own zIndex.
         <ParallaxLayer>
           //Your children of the first layer
           //...
