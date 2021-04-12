@@ -74,19 +74,13 @@ If you followed this along you may have noticed that each Layer just scrolls at 
 This is because we haven't provided a "speed" value yet.
 ```
   //...
-  <ParallaxContainer> //Wrapp your ParallaxLayers in ParallaxContainer. 
-      
-      //Each ParallaxLayer can have it's own children, own speed and own zIndex.
+  <ParallaxContainer>
       <ParallaxLayer speed="120%"> //this layer has a scroll speed of 120%
-        //Your children of the first layer
         //...
       </ParallaxLayer>
-     
       <ParallaxLayer speed="80%"> //this layer has a scroll speed of 80%
-        //Your children of the second layer
         //...
       </ParallaxLayer
-      //...
    </ParallaxContainer>
    //...
 ```
