@@ -75,7 +75,7 @@ function Site () {
 }
 ```
 ### Scroll speed
-If you followed this along you may have noticed that each Layer just scrolls at normal scroll speed.
+If you've followed along you may have noticed that each Layer just scrolls at the usual scroll speed.
 This is because we haven't provided a "speed" value yet.
 ```
   //...
@@ -93,7 +93,7 @@ As you can see the "speed" value is a percentage that describes the scroll speed
 A ParallaxLayer with a speed value of 120% percent scrolls 1.2 times faster than normal,
 a layer with the speed value 50% scrolls half as fast.
 The scroll value defaults to 100% (normal scroll speed).
-You can also provide negative values for really strange behaviour :D.
+You can also provide negative values for some really strange behaviour :D.
 
 ### zIndex
 But what if we want to specify which elements are in the front and which are in the back? 
