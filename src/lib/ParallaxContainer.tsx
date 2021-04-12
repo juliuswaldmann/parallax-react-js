@@ -1,8 +1,8 @@
-import React from "react";
+import React, { DetailedHTMLProps, HTMLAttributes } from "react";
 import {useState, useEffect} from "react";
 
 function ParallaxContainer(props: { children: [HTMLElement]}) {
-  const thisContainerPrefetch: any = React.createRef(); //create reference to this main div of the ParallaxContainer
+  const thisContainerPrefetch = React.createRef<HTMLDivElement>(); //create reference to this main div of the ParallaxContainer
   const [thisContainer, setThisContainer] = useState(thisContainerPrefetch); 
   //In some scenarios the reference returns null because of the way react-hotreload works. 
   //Creating a state of the reference seems to fix this proplem.
@@ -17,9 +17,9 @@ function ParallaxContainer(props: { children: [HTMLElement]}) {
         prevScroll = nv; //"prevScroll" is set to the value provided by the "onscroll" function
     }
 
-    thisContainer.current.onscroll = () => { //set the "onscroll" event function of the ParallaxContainer
+    thisContainer.current!.onscroll = () => { //set the "onscroll" event function of the ParallaxContainer
         try { //use try catch block to better handle errors created by the strange behaviour of references together with hotreload
-            onscroll(thisContainer.current, setPrevScroll, prevScroll); //pass the current ParallaxContainer, the setter function for "prevScroll" and the value of "prevScroll" to the "onscroll" function
+            onscroll(thisContainer.current!, setPrevScroll, prevScroll); //pass the current ParallaxContainer, the setter function for "prevScroll" and the value of "prevScroll" to the "onscroll" function
         } catch (error) { //handle errors
             console.error(error) //send errors to console for better insight
         }
@@ -35,7 +35,7 @@ function ParallaxContainer(props: { children: [HTMLElement]}) {
 
 //"onscroll" function that takes the ParallaxContainer, the setter function for "prevScroll" and "prevScroll" itself as arguments.
 //function then calculates the needed "translateY" value for the scroll behaviour to work as expected.
-function onscroll(container: { scrollTop: number; querySelectorAll: (arg0: string) => any; } , setPrevScroll:Function, prevScroll:number ) {
+function onscroll(container: HTMLDivElement, setPrevScroll:Function, prevScroll:number ) {
 
   const deltaScroll = container.scrollTop - prevScroll; //calculate the pixels scrolled since the lasr "onscroll" event
 
