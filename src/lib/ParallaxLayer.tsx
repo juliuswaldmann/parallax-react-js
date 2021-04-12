@@ -3,7 +3,7 @@ import {useEffect, useState} from 'react';
 
 //create ParallaxLayer component. You can provode a speed prop whcih sets the scroll speed realtive to the normal scroll speed in percent.
 //You can also provide a zIndex to specify if the object is on the of front or back (or between)
-const ParallaxLayer = (props: {speed?: string, zIndex?: number, children?:[HTMLElement]}) => {
+const ParallaxLayer = (props: {speed?: string, zIndex?: number, children?:React.ReactNode}) => {
 
     const thisdivprefetch = React.createRef<HTMLDivElement>(); //create reference to this main div of the ParallaxLayer
     const [thisdiv, setThisdiv] = useState(thisdivprefetch);

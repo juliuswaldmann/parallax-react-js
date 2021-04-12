@@ -1,7 +1,7 @@
-import React, { DetailedHTMLProps, HTMLAttributes } from "react";
+import React from "react";
 import {useState, useEffect} from "react";
 
-function ParallaxContainer(props: { children: [HTMLElement]}) {
+function ParallaxContainer(props: { children: React.ReactNode}) {
   const thisContainerPrefetch = React.createRef<HTMLDivElement>(); //create reference to this main div of the ParallaxContainer
   const [thisContainer, setThisContainer] = useState(thisContainerPrefetch); 
   //In some scenarios the reference returns null because of the way react-hotreload works. 
@@ -41,7 +41,7 @@ function onscroll(container: HTMLDivElement, setPrevScroll:Function, prevScroll:
 
   setPrevScroll(container.scrollTop); //set "prevScroll" so "deltaScroll" can be calculated properly the next time "onscroll" runs
 
-  const childrenarray :NodeListOf<HTMLDivElement> = container.querySelectorAll('.Parallax-Layer'); //select all ParallaxLayers that are children to the ParallaxContainer
+  const childrenarray :NodeListOf<HTMLElement> = container.querySelectorAll('.Parallax-Layer'); //select all ParallaxLayers that are children to the ParallaxContainer
 
   for(let i = 0; i < childrenarray.length; i++) { //loop through the ParallaxLayers. For loop is faster than foreach so for loop is used.
     
