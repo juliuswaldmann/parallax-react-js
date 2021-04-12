@@ -5,3 +5,5 @@ export {
     ParallaxContainer,
     ParallaxLayer
 }
+
+//this file just imports the Components and exports them again.
