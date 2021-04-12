@@ -32,3 +32,5 @@ Alternatively you can also install parallax-react directyl from the source code:
 3. compile the package with `npx tsc -p tsconfig.json`
 4. go to the project folder you want to install the package to and open a terminal
 5. run `npm install CLONED_REPOSITORY_FOLDER` where `CLONED_REPOSITORY_FOLDER` is the path to the repository you just cloned.
+
+## Usage
