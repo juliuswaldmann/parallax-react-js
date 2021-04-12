@@ -12,4 +12,4 @@ So we decided to create our own.
 ### Installation
 
 you can install parallax-react normally through npm (note: not yet available)
-'npm install parallax-react'
+´´´npm install parallax-react´´´
