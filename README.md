@@ -50,7 +50,7 @@ import {ParallaxContainer, ParallaxLayer} from 'parallax-react';
 function Site () {
 
   return (
-    <div>  
+    <div className="Site">  
       <ParallaxContainer> //Wrapp your ParallaxLayers in ParallaxContainer. 
       
         //Each ParallaxLayer can have it's own children, own speed and own zIndex.
