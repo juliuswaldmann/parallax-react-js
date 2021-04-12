@@ -1,4 +1,4 @@
-# parallax-react1
+# parallax-react
 
 ## Table of contents
 1. [Introduction](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#introduction)
