@@ -6,7 +6,10 @@
    * [Using npm](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#using-npm)
    * [Manual Installation](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#manual-installation)
 3. [Usage](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#usage)
-
+   * [Import](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#import)
+   * [Creating a Parallax effect](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#creating-a-parallax-effect)
+   * [Scroll speed](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#scroll-speed)
+   * [zIndex](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#zindex)
 
 ## Introduction
 
