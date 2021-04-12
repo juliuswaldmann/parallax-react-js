@@ -24,5 +24,9 @@
   "files": [
     "./build/*"
   ],
-  "module": "./build/index.js"
+  "module": "./build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juliuswaldmann/parallax-react.git"
+}
 }
