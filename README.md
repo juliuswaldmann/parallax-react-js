@@ -1,4 +1,12 @@
-# parallax-react
+# parallax-react1
+
+## Table of contents
+1. [Introduction](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#introduction)
+2. [Installation](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#installation)
+   * [Using npm](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#using-npm)
+   * [Manual Installation](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#manual-installation)
+3. [Usage](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#usage)
+
 
 ## Introduction
 
