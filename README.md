@@ -17,7 +17,7 @@ You can install parallax-react normally through npm: (note: not yet available)
  npm install parallax-react
  `
 
-Alternatively yay can also install parallax-react directyl from the source code:
+Alternatively you can also install parallax-react directyl from the source code:
 
 1. clone the repository with `git clone https://github.com/juliuswaldmann/parallax-react.git`
 2. open a terminal inside of the repository folder
