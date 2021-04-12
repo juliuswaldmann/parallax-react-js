@@ -46,13 +46,13 @@ Alternatively you can also install parallax-react directyl from the source code:
 parallax-react exposes two components: ParallaxContainer and ParallaxLayer.
 To use them just import them like this:
 
-```
+```typescript
 import {ParallaxContainer, ParallaxLayer} from 'parallax-react';
 ```
 ### Creating a parallax effect
 ParallaxContainer must be the scrollable element.
 To create a parallax effect you must wrapp your ParallaxLayers with ParallaxContainer
-```
+```typescript
 import {ParallaxContainer, ParallaxLayer} from 'parallax-react';
 
 function Site () {
@@ -81,7 +81,7 @@ function Site () {
 ### Scroll speed
 If you've followed along you may have noticed that each Layer just scrolls at the usual scroll speed.
 This is because we haven't provided a "speed" value yet.
-```
+```typescript
   //...
   <ParallaxContainer>
       <ParallaxLayer speed="120%"> //this layer has a scroll speed of 120%
@@ -102,7 +102,7 @@ You can also provide negative values for some really strange behaviour :D.
 ### zIndex
 But what if we want to specify which elements are in the front and which are in the back? 
 We have a solution for that! You can just provide a "zIndex" value. 
-```
+```typescript
   //...
       <ParallaxLayer speed="80%" zIndex={2}> //this layer has a zIndex of 2
         //...
