@@ -34,7 +34,7 @@ Alternatively you can also install parallax-react directyl from the source code:
 5. run `npm install CLONED_REPOSITORY_FOLDER` where `CLONED_REPOSITORY_FOLDER` is the path to the repository you just cloned.
 
 ## Usage
-![gif](https://media.giphy.com/media/1XaYfIbCKj15OLyDwI/giphy.gif)
+![gif](https://media.giphy.com/media/JMtnvwkpNwFziOjV9v/giphy.gif)
 ### Import
 parallax-react exposes two components: ParallaxContainer and ParallaxLayer.
 To use them just import them like this:
