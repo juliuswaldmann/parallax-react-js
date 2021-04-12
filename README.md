@@ -118,3 +118,5 @@ If you don't provide a zIndex the value defaults to 0 (just like in css)
 
 ## License
 This code is licensed under the MIT license. For further Information read the [LICENSE](https://github.com/juliuswaldmann/parallax-react/blob/main/LICENSE) file.
+
+MIT Licensed. Copyright (c) Julius Waldmann & Max Lukonin 2021.
