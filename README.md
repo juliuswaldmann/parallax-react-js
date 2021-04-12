@@ -14,4 +14,4 @@ So we decided to create our own.
 you can install parallax-react normally through npm: (note: not yet available)
  ```
  npm install parallax-react
- `
+ ```
