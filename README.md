@@ -12,6 +12,7 @@
    * [Creating a Parallax effect](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#creating-a-parallax-effect)
    * [Scroll speed](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#scroll-speed)
    * [zIndex](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#zindex)
+4. [License](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#license)
 
 ## Introduction
 ### Description
@@ -114,3 +115,6 @@ The higher the zIndex value the "more in front" the element is.
 If one Layer has a zIndex of -1 and another a zIndex of 0 the one with the zIndex of 0 is in front.
 If another one has a zIndex of 2 that one is even more in front.
 If you don't provide a zIndex the value defaults to 0 (just like in css)
+
+## License
+This code is licensed under the MIT license. For further Information read the [LICENSE](https://github.com/juliuswaldmann/parallax-react/blob/main/LICENSE) file.
