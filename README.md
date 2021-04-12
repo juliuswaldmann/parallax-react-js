@@ -85,3 +85,6 @@ This is because we haven't provided a "speed" value yet.
    //...
 ```
 As you can see the "speed" value is a percentage that describes the scroll speed of the children realtive to the normal scroll speed.
+A ParallaxLayer with a speed value of 120% percent scrolls 1.2 times as fast as normal,
+a layer with the speed value 50% scrolls half as fast.
+You can also provide negative values for really funny behaviour :D.
