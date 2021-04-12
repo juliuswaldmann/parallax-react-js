@@ -50,17 +50,44 @@ import {ParallaxContainer, ParallaxLayer} from 'parallax-react';
 function Site () {
 
   return (
-    <div>
+    <div>  
       <ParallaxContainer> //Wrapp your ParallaxLayers in ParallaxContainer. 
-                          //Each ParallaxLayer can have it's own children, own speed and own zIndex.
-        <ParallaxLayer>
+      
+        //Each ParallaxLayer can have it's own children, own speed and own zIndex.
+        <ParallaxLayer> //fist layer
           //Your children of the first layer
           //...
         </ParallaxLayer>
         
+        <ParallaxLayer> //second layer
+          //Your children of the second layer
+          //...
+        </ParallaxLayer>
+        //...
       </ParallaxContainer>
     </div>
   )
 
 }
 ```
+If you followed this along you may have noticed that each Layer just scrolls at normal scroll speed.
+This is because we haven't provided a "speed" value yet.
+```
+  //...
+  <ParallaxContainer> //Wrapp your ParallaxLayers in ParallaxContainer. 
+      
+      //Each ParallaxLayer can have it's own children, own speed and own zIndex.
+      <ParallaxLayer speed="120%"> //this layer has a scroll speed of 120%
+        //Your children of the first layer
+        //...
+      </ParallaxLayer>
+     
+      <ParallaxLayer speed="80%"> //this layer has a scroll speed of 80%
+        //Your children of the second layer
+        //...
+      </ParallaxLayer
+      //...
+   </ParallaxContainer>
+   //...
+```
+As you can see the "speed" value is a percentage that describes the scroll speed of the children realtive to the normal scroll speed.
