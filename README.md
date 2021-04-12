@@ -2,6 +2,8 @@
 
 ## Table of contents
 1. [Introduction](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#introduction)
+   * [Description](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#descriptiom)
+   * [Shoutout to Max Lukonin](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#shoutout-to-max-lukonin)
 2. [Installation](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#installation)
    * [Using npm](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#using-npm)
    * [Manual Installation](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#manual-installation)
@@ -12,13 +14,15 @@
    * [zIndex](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#zindex)
 
 ## Introduction
-
+### Description
 A libary for managing scroll speed of different components in react.
 
-I recently found myself creating a site in react together with a friend of mine and wanting to implement a parallax effect.
+I recently found myself creating a site in react together with a friend of mine (Max Lukonin) and wanting to implement a parallax effect.
 We tried a few different libaries, pure css and everything else but it just did not work.
 
-So we decided to create our own.
+So we decided to create our own libary.
+### Shoutout to Max Lukonin
+This project is a collaboration between me ([Instagram](https://www.instagram.com/julius._w/), [Github](https://github.com/juliuswaldmann)) and Max Lukonin ([Instagram](https://www.instagram.com/mxluk/), [Github](https://github.com/mxluk)). He's a very talented guy. Check out his other project [playretrogames.net](https://playretrogames.net/) (Website) where you can play all kinds of fun retro games. I personally recommend mario kart :D
 
 ## Installation
 ### Using npm
