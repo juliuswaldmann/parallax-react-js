@@ -70,7 +70,7 @@ function Site () {
 
 }
 ```
-### scroll speed
+### Scroll speed
 If you followed this along you may have noticed that each Layer just scrolls at normal scroll speed.
 This is because we haven't provided a "speed" value yet.
 ```
