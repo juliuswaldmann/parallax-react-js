@@ -41,7 +41,7 @@ function onscroll(container: HTMLDivElement, setPrevScroll:Function, prevScroll:
 
   setPrevScroll(container.scrollTop); //set "prevScroll" so "deltaScroll" can be calculated properly the next time "onscroll" runs
 
-  const childrenarray = container.querySelectorAll('.Parallax-Layer'); //select all ParallaxLayers that are children to the ParallaxContainer
+  const childrenarray :NodeListOf<HTMLDivElement> = container.querySelectorAll('.Parallax-Layer'); //select all ParallaxLayers that are children to the ParallaxContainer
 
   for(let i = 0; i < childrenarray.length; i++) { //loop through the ParallaxLayers. For loop is faster than foreach so for loop is used.
     

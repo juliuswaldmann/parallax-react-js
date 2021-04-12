@@ -10,11 +10,20 @@ var ParallaxLayer = function (props) {
     useEffect(function () {
         var _a;
         if (!props.speed)
-            props.speed = "100%";
-        if (!props.speed.includes("%"))
+            props.speed = "100%"; //if props.speed is undefined set it to 100% (normal scroll speed)
+        //check if props.speed is a proper percentage. If not throw an error and set props.speed to 100% again
+        if (!props.speed.includes("%")) {
             console.error("Value of Parallax Speed must be a percentage. Read our documentation for further information.");
+            props.speed = "100%";
+        }
         (_a = thisdiv.current) === null || _a === void 0 ? void 0 : _a.setAttribute("parallaxSpeed", props.speed);
-    }, [props.speed]);
+        //set attribute "parallaxSpeed" of the div to the same value as props.speed.
+        //This way you can see the value in the actual dom. 
+        //You can also change it and directly influence the scroll speed without changing your source code. 
+    }, [props.speed]); //Only run the checks on props.speed again if it has changed.
+    //Render chldren of this ParallaxLayer inside of a wrapper div which is part of the "Parallax-Layer" class.
+    //Wrapper div is referenced by the "thisdiv" ("thisdivprefetch") reference so parallaxSpeed can be set properly.
     return (React.createElement("div", { style: { zIndex: props.zIndex ? props.zIndex : 0, transform: "translateY(0px)" }, className: "Parallax-Layer", ref: thisdiv }, props.children));
 };
+//export the ParallaxLayer component
 export default ParallaxLayer;
