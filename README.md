@@ -34,3 +34,32 @@ Alternatively you can also install parallax-react directyl from the source code:
 5. run `npm install CLONED_REPOSITORY_FOLDER` where `CLONED_REPOSITORY_FOLDER` is the path to the repository you just cloned.
 
 ## Usage
+### Import
+parallax-react exposes two components: ParallaxContainer and ParallaxLayer.
+To use them just import them like this:
+
+```
+import {ParallaxContainer, ParallaxLayer} from 'parallax-react';
+```
+### Creating a parallax effect
+ParallaxContainer must be the scrollable element.
+To create a parallax effect you must wrapp your ParallaxLayers with ParallaxContainer
+```
+import {ParallaxContainer, ParallaxLayer} from 'parallax-react';
+
+function Site () {
+
+  return (
+    <div>
+      <ParallaxContainer> //Wrapp your ParallaxLayers in ParallaxContainer. Each ParallaxLayer can have it's own children, own speed and own zIndex
+        <ParallaxLayer>
+          //Your children of the first layer
+          //...
+        </ParallaxLayer>
+        
+      </ParallaxContainer>
+    </div>
+  )
+
+}
+```
