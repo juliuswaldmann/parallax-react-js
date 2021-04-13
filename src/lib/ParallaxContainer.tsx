@@ -27,8 +27,10 @@ function ParallaxContainer(props: { children: React.ReactNode}) {
   }, []); //empty dependency array (runs only after first render of Component)
 
   return ( //return children wrapped inside a div referenced by "thisContainer". Div is part of class "Parallex-Container" and has some simple style properties
-    <div className={"Parallax-Container"} ref={thisContainer} style={{ height: "100%", overflow: "auto", width: "100%" }} >
-      {props.children}
+    <div className={"Parallax-Container-Outer"} style={{width: "100%", height: "100vh", display: 'flex'}}>
+      <div className={"Parallax-Container"} ref={thisContainer} style={{ height: "100%", overflow: "auto", width: "100%" }} >
+        {props.children}
+      </div>
     </div>
   );
 }
