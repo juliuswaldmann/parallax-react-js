@@ -1,5 +1,5 @@
 {
-  "name": "parallax-react",
+  "name": "parallax-react-js",
   "version": "1.0.0",
   "description": "A libary for managing scroll speed of different components in react.",
   "scripts": {
