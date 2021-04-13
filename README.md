@@ -27,7 +27,7 @@ This project is a collaboration between me ([Instagram](https://www.instagram.co
 
 ## Installation
 ### Using npm
-You can install parallax-react normally through npm: (note: not yet available)
+You can install parallax-react normally through npm:
 
  `
  npm install parallax-react
