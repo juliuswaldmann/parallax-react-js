@@ -35,7 +35,7 @@ You can install parallax-react normally through npm:
 ### Manual installation
 Alternatively you can also install parallax-react directyl from the source code:
 
-1. clone the repository with `git clone https://github.com/juliuswaldmann/parallax-react.git`
+1. clone the repository with `git clone https://github.com/juliuswaldmann/parallax-react-js.git`
 2. open a terminal inside of the repository folder.
 3. compile the package with `npx tsc -p tsconfig.json`
 4. run `npm pack` to create a .tgz file of the package (npm link DOES NOT work. You have to pack!).
