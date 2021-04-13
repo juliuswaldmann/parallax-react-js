@@ -1,18 +1,18 @@
 # parallax-react-js
 
 ## Table of contents
-1. [Introduction](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#introduction)
-   * [Description](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#descriptiom)
-   * [Shoutout to Max Lukonin](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#shoutout-to-max-lukonin)
-2. [Installation](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#installation)
-   * [Using npm](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#using-npm)
-   * [Manual Installation](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#manual-installation)
-3. [Usage](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#usage)
-   * [Import](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#import)
-   * [Creating a Parallax effect](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#creating-a-parallax-effect)
-   * [Scroll speed](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#scroll-speed)
-   * [zIndex](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#zindex)
-4. [License](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#license)
+1. [Introduction](https://github.com/juliuswaldmann/parallax-react-js/blob/main/README.md#introduction)
+   * [Description](https://github.com/juliuswaldmann/parallax-react-js/blob/main/README.md#descriptiom)
+   * [Shoutout to Max Lukonin](https://github.com/juliuswaldmann-js/parallax-react/blob/main/README.md#shoutout-to-max-lukonin)
+2. [Installation](https://github.com/juliuswaldmann/parallax-react-js/blob/main/README.md#installation)
+   * [Using npm](https://github.com/juliuswaldmann/parallax-react-js/blob/main/README.md#using-npm)
+   * [Manual Installation](https://github.com/juliuswaldmann/parallax-react-js/blob/main/README.md#manual-installation)
+3. [Usage](https://github.com/juliuswaldmann/parallax-react-js/blob/main/README.md#usage)
+   * [Import](https://github.com/juliuswaldmann/parallax-react-js/blob/main/README.md#import)
+   * [Creating a Parallax effect](https://github.com/juliuswaldmann/parallax-react-js/blob/main/README.md#creating-a-parallax-effect)
+   * [Scroll speed](https://github.com/juliuswaldmann/parallax-react-js/blob/main/README.md#scroll-speed)
+   * [zIndex](https://github.com/juliuswaldmann/parallax-react-js/blob/main/README.md#zindex)
+4. [License](https://github.com/juliuswaldmann/parallax-react-js/blob/main/README.md#license)
 
 ## Introduction
 ### Description
