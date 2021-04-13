@@ -38,7 +38,7 @@ Alternatively you can also install parallax-react directyl from the source code:
 1. clone the repository with `git clone https://github.com/juliuswaldmann/parallax-react.git`
 2. open a terminal inside of the repository folder.
 3. compile the package with `npx tsc -p tsconfig.json`
-4. run `npm pack` to create a .tgz file of the package (npm link DOES NOT work. You have to pack).
+4. run `npm pack` to create a .tgz file of the package (npm link DOES NOT work. You have to pack!).
 5. go to the project folder you want to install the package to and open a terminal.
 6. run `npm install TARBALL` where `TARBALL` is the path to the .tgz file `npm pack` created.
 
