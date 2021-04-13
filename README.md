@@ -27,13 +27,13 @@ This project is a collaboration between me ([Instagram](https://www.instagram.co
 
 ## Installation
 ### Using npm
-You can install parallax-react normally through npm:
+You can install parallax-react-js normally through npm:
 
  `
  npm install parallax-react-js
  `
 ### Manual installation
-Alternatively you can also install parallax-react directyl from the source code:
+Alternatively you can also install parallax-react-js directyl from the source code:
 
 1. clone the repository with `git clone https://github.com/juliuswaldmann/parallax-react-js.git`
 2. open a terminal inside of the repository folder.
@@ -45,7 +45,7 @@ Alternatively you can also install parallax-react directyl from the source code:
 ## Usage
 ![gif](https://media.giphy.com/media/JMtnvwkpNwFziOjV9v/giphy.gif)
 ### Import
-parallax-react exposes two components: ParallaxContainer and ParallaxLayer.
+parallax-react-js exposes two components: ParallaxContainer and ParallaxLayer.
 To use them just import them like this:
 
 ```JSX
