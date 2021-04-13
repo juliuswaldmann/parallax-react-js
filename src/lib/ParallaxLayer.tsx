@@ -9,22 +9,18 @@ const ParallaxLayer = (props: {speed?: string, zIndex?: number, children?:React.
     const [thisdiv, setThisdiv] = useState(thisdivprefetch);
     //In some scenarios the reference returns null because of the way react-hotreload works. 
     //Creating a state of the reference seems to fix this proplem.
+    var speed :string = props.speed?props.speed:"100%";  //if props.speed is undefined set it to 100% (normal scroll speed)
 
-    useEffect(()=>{
-        if(!props.speed) props.speed = "100%"; //if props.speed is undefined set it to 100% (normal scroll speed)
+    //check if props.speed is a proper percentage. If not throw an error and set props.speed to 100% again
+    if(!speed.includes("%")){
+        console.error("Value of Parallax Speed must be a percentage. Read our documentation for further information.");
+        speed = "100%";
+    }
 
-        //check if props.speed is a proper percentage. If not throw an error and set props.speed to 100% again
-        if(!props.speed.includes("%")){
-            console.error("Value of Parallax Speed must be a percentage. Read our documentation for further information.");
-            props.speed = "100%";
-        }
-
-        thisdiv.current?.setAttribute("parallaxSpeed", props.speed); 
-        //set attribute "parallaxSpeed" of the div to the same value as props.speed.
-        //This way you can see the value in the actual dom. 
-        //You can also change it and directly influence the scroll speed without changing your source code. 
-
-    }, [props.speed]) //Only run the checks on props.speed again if it has changed.
+    thisdiv.current?.setAttribute("parallaxSpeed", speed); 
+    //set attribute "parallaxSpeed" of the div to the same value as props.speed.
+    //This way you can see the value in the actual dom. 
+    //You can also change it and directly influence the scroll speed without changing your source code. 
 
     //Render chldren of this ParallaxLayer inside of a wrapper div which is part of the "Parallax-Layer" class.
     //Wrapper div is referenced by the "thisdiv" ("thisdivprefetch") reference so parallaxSpeed can be set properly.
