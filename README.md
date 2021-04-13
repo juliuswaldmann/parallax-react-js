@@ -1,4 +1,4 @@
-# parallax-react
+# parallax-react-js
 
 ## Table of contents
 1. [Introduction](https://github.com/juliuswaldmann/parallax-react/blob/main/README.md#introduction)
@@ -30,7 +30,7 @@ This project is a collaboration between me ([Instagram](https://www.instagram.co
 You can install parallax-react normally through npm:
 
  `
- npm install parallax-react
+ npm install parallax-react-js
  `
 ### Manual installation
 Alternatively you can also install parallax-react directyl from the source code:
@@ -48,13 +48,13 @@ parallax-react exposes two components: ParallaxContainer and ParallaxLayer.
 To use them just import them like this:
 
 ```JSX
-import {ParallaxContainer, ParallaxLayer} from 'parallax-react';
+import {ParallaxContainer, ParallaxLayer} from 'parallax-react-js';
 ```
 ### Creating a parallax effect
 ParallaxContainer must be the scrollable element.
 To create a parallax effect you must wrapp your ParallaxLayers with ParallaxContainer
 ```JSX
-import {ParallaxContainer, ParallaxLayer} from 'parallax-react';
+import {ParallaxContainer, ParallaxLayer} from 'parallax-react-js';
 
 function Site () {
 
