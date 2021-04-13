@@ -30,7 +30,7 @@ const ParallaxLayer = (props: {speed?: string, zIndex?: number, children?:React.
     return (
             
         <div style={{zIndex: props.zIndex?props.zIndex:0, transform: "translateY(0px)"}} className={"Parallax-Layer"} ref={thisdiv}>
-            <div>{props.children}</div>
+            <div style={{height: "100%"}}>{props.children}</div>
         </div>
     )
 }
