@@ -1,6 +1,5 @@
 import React from "react";
 import {useState, useEffect} from "react";
-import isAtLeastOneInView from './functions/isAtLeastOneInView';
 
 function ParallaxContainer(props: { children: React.ReactNode}) {
   const thisContainerPrefetch = React.createRef<HTMLDivElement>(); //create reference to this main div of the ParallaxContainer
@@ -54,9 +53,8 @@ function onscroll(container: HTMLDivElement, setPrevScroll:Function, prevScroll:
 
       //calculate new "tranlateY" value based on wanted speed of each Layer, 
       //the current position and the distance scrolled between now and the last "onscroll" event.
-      if(isAtLeastOneInView(childrenarray[i])) {
-        childrenarray[i].style.transform = "translateY(" + (prevPosY + deltaScroll * (1-parseFloat(childrenarray[i].getAttribute("parallaxSpeed")!.replace("%", ""))/100)).toString() + "px)";
-      }
+      childrenarray[i].style.transform = "translateY(" + (prevPosY + deltaScroll * (1-parseFloat(childrenarray[i].getAttribute("parallaxSpeed")!.replace("%", ""))/100)).toString() + "px)";
+
     
     } catch (error) { //handle errors
       console.error(error); //log errors to console for better insight
