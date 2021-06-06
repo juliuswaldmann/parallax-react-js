@@ -29,8 +29,8 @@ const ParallaxLayer = (props: {speed?: string, zIndex?: number, children?:React.
     //Wrapper div is referenced by the "thisdiv" ("thisdivprefetch") reference so parallaxSpeed can be set properly.
     return (
             
-        <div style={{zIndex: props.zIndex?props.zIndex:0, transform: "translateY(0px)"}} className={"Parallax-Layer"} ref={thisdiv}>
-            <div style={{height: "100%"}}>{props.children}</div>
+        <div style={{zIndex: props.zIndex?props.zIndex:0, transform: "translateY(0px)"}} className={"Parallax-Layer clearfix"} ref={thisdiv}>
+            {props.children}
         </div>
     )
 }
