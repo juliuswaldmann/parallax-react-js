@@ -4,7 +4,7 @@
 
 1. [Introduction](https://github.com/juliuswaldmann/parallax-react-js/blob/main/README.md#introduction)
    * [Description](https://github.com/juliuswaldmann/parallax-react-js/blob/main/README.md#descriptiom)
-   * [Shoutout to Max Lukonin](https://github.com/juliuswaldmann-js/parallax-react/blob/main/README.md#shoutout-to-max-lukonin)
+   * [Shoutout to Max Lukonin](https://github.com/juliuswaldmann/parallax-react-js/blob/main/README.md#shoutout-to-max-lukonin)
 2. [Installation](https://github.com/juliuswaldmann/parallax-react-js/blob/main/README.md#installation)
    * [Using npm](https://github.com/juliuswaldmann/parallax-react-js/blob/main/README.md#using-npm)
    * [Manual Installation](https://github.com/juliuswaldmann/parallax-react-js/blob/main/README.md#manual-installation)
@@ -42,12 +42,12 @@ You can install parallax-react-js normally through npm:
 
 Alternatively you can also install parallax-react-js directyl from the source code:
 
-1. clone the repository with `git clone https://github.com/juliuswaldmann/parallax-react-js.git`
+1. clone the repository with`git clone https://github.com/juliuswaldmann/parallax-react-js.git`
 2. open a terminal inside of the repository folder.
-3. compile the package with `npm run build`
-4. run `npm pack` to create a .tgz file of the package (`npm link` DOES NOT work. You have to use `npm pack`).
+3. compile the package with`npm run build`
+4. run`npm pack` to create a .tgz file of the package (`npm link` DOES NOT work. You have to use`npm pack`).
 5. go to the project folder you want to install the package to and open a terminal.
-6. run `npm install TARBALL` where `TARBALL` is the path to the .tgz file `npm pack` created.
+6. run`npm install TARBALL` where`TARBALL` is the path to the .tgz file`npm pack` created.
 
 ## Usage
 
@@ -75,13 +75,13 @@ function Site () {
   return (
     <div className="Site">  
       <ParallaxContainer> //Wrapp your ParallaxLayers in ParallaxContainer. 
-    
+  
         //Each ParallaxLayer can have it's own children, own speed and own zIndex.
         <ParallaxLayer> //fist layer
           //Your children of the first layer
           //...
         </ParallaxLayer>
-      
+    
         <ParallaxLayer> //second layer
           //Your children of the second layer
           //...
