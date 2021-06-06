@@ -1,6 +1,6 @@
 {
   "name": "parallax-react-js",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "A libary for managing scroll speed of different components in react.",
   "scripts": {
     "copy-files": "copyfiles -u 1 src/**/*.css build/",
